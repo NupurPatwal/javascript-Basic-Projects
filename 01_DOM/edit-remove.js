@@ -10,7 +10,7 @@ addLang("phython");
 addLang("Ruby");
 addLang("C");
 
-// The optoimised Approach
+// The optimised Approach
 function addOptiLang(LangName) {
   const li = document.createElement("li");
   li.appendChild(document.createTextNode(LangName));
@@ -29,7 +29,11 @@ const newLi = document.createElement("li");
 newLi.textContent = "Mojo";
 secLang.replaceWith(newLi);
 
+// 3. Approach:
+const newLang = document.querySelector("li:first-child");
+newLang.outerHTML = "<li>Typescript</li>";
+
 // Delete the elements:
 
-const newLi = document.createElement("li")
-newLi.textContent = "Mojo"
+const lastLang = document.querySelector("li:last-child");
+lastLang.remove();
