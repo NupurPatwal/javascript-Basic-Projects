@@ -5,6 +5,7 @@
 
 1. create html/js : creating the document only using javascript.
 2. edit-remove html/js : creating the document using the js.
+3. Adding the elements in the file.
 
 
 
